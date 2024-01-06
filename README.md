@@ -10,7 +10,7 @@
 width="800"  height="3">
 
 </div>
-https://github.com/ox-dao/video/releases/download/web3/1-BasicUsage.mp4
+
 
 <details open>
 <summary>点击展开 ...</summary>
