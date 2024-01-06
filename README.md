@@ -17,7 +17,7 @@ width="800"  height="3">
 
 |                        Project                         |               Remark             |
 | :----------------------------------------------------: | :------------------------------: |
-| [Basic Usage]([https://github.com/eryajf/docker_learn](https://github.com/ox-dao/video/releases/download/web3/1-BasicUsage.mp4)) | Web3门户的基本使用 |
+| [Basic Usage](https://github.com/ox-dao/video/releases/download/web3/1-BasicUsage.mp4)| Web3门户的基本使用 |
 
 
 </details>
