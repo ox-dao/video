@@ -15,7 +15,7 @@ width="800"  height="3">
 <details open>
 <summary>点击展开 ...</summary>
 
-|                        Project                         |               Remark             |
+|                        视频地址                         |               说明               |
 | :----------------------------------------------------: | :------------------------------: |
 | [Basic Usage](https://github.com/ox-dao/video/releases/download/web3/1-BasicUsage.mp4)| Web3门户的基本使用 |
 
