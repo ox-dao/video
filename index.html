@@ -1,34 +1,55 @@
 
-﻿<!DOCTYPE html>
-
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+
+        .area {
+            margin-top: 50px;
+            border-top: 1px solid gray;
+        }
+
+        .dl {
+            margin-left: 30px;
+        }
+    </style>
 </head>
 <body>
     <h1>welcome to ox dao</h1>
-    <p>
-        这是OX-ECO生态社区
-    </p>
-    <ul style="width:800px;height:600px;">
-        <li>
-            <video src="https://github.com/ox-dao/video/releases/download/web3/1-BasicUsage.mp4"
-                 controls = "true" /*是否显示播放控件*/
-                height="600"
-                width="800"
-  poster="images.jpg" /*视频封面*/
-  preload="auto" /*预加载*/
-  webkit-playsinline="true" /*IOS中让视频在小窗内播放而不是全屏播放*/  
-  playsinline="true" /*IOS微信浏览器支持小窗内播放*/ 
-  x-webkit-airplay="allow" /*是否支持ios的AirPlay功能*/
-  x5-video-player-type="h5" /*启用H5播放器,是wechat安卓版特性*/
-  x5-video-player-fullscreen="true" /*设置为true防止横屏*/
-  x5-video-orientation="portraint" /*播放器的方向，landscape横屏，portraint竖屏，默认值为竖屏*/
-  style="object-fit:fill"
-                ></video>
-        </li>
-    </ul>
+    <h2>
+        这是OX-ECO生态的视频教程
+    </h2>
+    <div class="area">
+        <span>web3使用教程 <a class="dl" href="https://github.com/ox-dao/video/releases/download/web3/1-BasicUsage.mp4">下载</a></span>
+        <ul style="width:800px;height:600px;">
+            <li>
+                <p>web3门户的基本使用</p>
+                <video src="https://github.com/ox-dao/video/releases/download/web3/1-BasicUsage.mp4"
+                       controls="true" /*是否显示播放控件*/
+                       height="600"
+                       width="800"
+                       poster="images.jpg" /*视频封面*/
+                       preload="auto" /*预加载*/
+                       webkit-playsinline="true" /*IOS中让视频在小窗内播放而不是全屏播放*/
+                       playsinline="true" /*IOS微信浏览器支持小窗内播放*/
+                       x-webkit-airplay="allow" /*是否支持ios的AirPlay功能*/
+                       x5-video-player-type="h5" /*启用H5播放器,是wechat安卓版特性*/
+                       x5-video-player-fullscreen="true" /*设置为true防止横屏*/
+                       x5-video-orientation="portraint" /*播放器的方向，landscape横屏，portraint竖屏，默认值为竖屏*/
+                       style="object-fit:fill"></video>
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>
+
